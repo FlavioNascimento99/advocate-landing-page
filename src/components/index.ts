@@ -1,0 +1,7 @@
+export { Navbar } from './Navbar'
+export { Hero } from './Hero'
+export { StatsSection } from './StatsSection'
+export { Pillars } from './Pillars'
+export { Resources } from './Resources'
+export { CTA } from './CTA'
+export { Footer } from './Footer'
