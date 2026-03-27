@@ -140,5 +140,8 @@ export const siteData = {
       { name: 'Twitter', url: '#' },
       { name: 'Instagram', url: '#' },
     ],
+    developer: [
+      { name: 'Desenvolvido por Flavio Nascimento', url: 'nascimentohub.netlify.app'},
+    ]
   },
 }

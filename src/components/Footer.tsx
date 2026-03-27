@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { siteData } from '../data/siteData'
+import { Key } from 'lucide-react'
 
 export const Footer = () => {
   const containerVariants = {
@@ -89,6 +90,23 @@ export const Footer = () => {
             © 2024 Advocate. Todos os direitos reservados.
           </motion.p>
 
+          {/* Link Portifolio Desenvolvedor */}
+          <motion.p
+            variants={itemVariants}
+            className="text-cream/40 text-sm"
+          >
+            {siteData.footer.developer.map((developer) => (
+              <motion.a
+                key={developer.name}
+                href={developer.url}
+                whileHover={{scale: 1.2, rotate: 5}}
+                className="text-cream/60 hover:text-cream transition-colors duration-300 font-medium text-sm"
+              >
+                {developer.name}
+              </motion.a>
+            ))}
+          </motion.p>
+          
           {/* Social links */}
           <motion.div
             variants={itemVariants}
