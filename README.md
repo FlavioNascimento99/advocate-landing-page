@@ -2,6 +2,10 @@
 
 Uma aplicação web moderna construída com React, TypeScript e Tailwind CSS. Website institucional com foco em educação, autoridade e conversão leve, inspirado em layouts editoriais minimalistas.
 
+## Preview
+
+![preview](https://github.com/user-attachments/assets/11989022-ff4e-4f57-b7c4-46fdc2d74e21)
+
 ## 🎨 Características
 
 - **Design Editorial Moderno**: Layout limpo, sofisticado com muito espaçamento
